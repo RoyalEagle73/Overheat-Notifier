@@ -1,5 +1,5 @@
 # Overheat Notifier
-Checks if your PC temperature is under control or not. If tempearture goes above the decided temperature(70C), script plays an audio to warn about the temperatures.
+Checks if your PC temperature is under control or not. If tempearture goes above the decided temperature (70°C), script plays an audio to warn about the temperatures.
 
 ## Reuirements
 Python3

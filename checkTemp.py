@@ -24,6 +24,5 @@ def program():
 		temperatures.append(val)
 
 	for temp in temperatures:
-		print("Temperature " + str(temperatures.index(temp)+1) + " is " + str(temp) + "°C")
 		if temp>=70:
 			playsound('sound.mp3')

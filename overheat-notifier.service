@@ -1,0 +1,13 @@
+[Unit]
+Description = Alarms user when temperature goes over decided temperature
+After = network.target #Assuming you want to start after network interfaces are made available
+
+[Service]
+Type = simple
+ExecStart = python3 /overheat-notifier/allahuakbar.py 
+Restart = on-failure 
+RestartSec = 5 
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy = multi-user.target 

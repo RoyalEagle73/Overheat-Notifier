@@ -1,3 +1,2 @@
 playsound
-os
-re
+regex

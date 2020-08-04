@@ -3,6 +3,11 @@ Checks if your PC temperature is under control or not. If tempearture goes above
 
 ## Reuirements
 Python3
+wget
+git
+
+## One Command Installation
+sudo bash install.sh & wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/RoyalEagle73/Overheat-Notifier/master/install.sh
 
 ## Installation
 1. Run given command to install all python dependencies.

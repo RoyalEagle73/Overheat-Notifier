@@ -1,6 +1,6 @@
 import os
 from time import sleep
-from checkTemp import program
+from temp import program
 
 
 while True:
